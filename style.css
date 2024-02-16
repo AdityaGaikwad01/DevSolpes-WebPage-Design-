@@ -41,3 +41,16 @@ ul.topnav li a:hover{
     background-color: #0080ff;
     color: #fff;
 }
+
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+
+/* ##################### Mobile Style ############## */
+/* for detecting the style(max-width) and change according to it */
+@media screen and (max-width:680px) {
+    /*this is for creating expection not(:nth-child(1)) means first list item "HOME" */
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }   
+}
