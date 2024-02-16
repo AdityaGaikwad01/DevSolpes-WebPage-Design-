@@ -9,7 +9,7 @@
 <body>
     
     <nav>
-        <ul class="topnav">
+        <ul class="topnav" id="dropdownClick">
             <li><a href="#Home">Home</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -17,9 +17,11 @@
             <li class="topnav-right"><a href="#signup">Sign Up</a></li>
             <li class="topnav-right"><a href="#signin">Sing In</a></li>
             <!-- TRIGRAM FOR HEAVEN The button -->
-            <li class="dropdownIcon"><a href="">&#9776;</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
 
         </ul>
     </nav>
+    <script src="createDropMenu.js">
+    </script>
 </body>
 </html>
